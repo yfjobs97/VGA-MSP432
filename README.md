@@ -1,2 +1,4 @@
 # VGA-MSP432
 MSP432 Microcontroller configured to link to a VGA monitor
+
+The goal is to utilise MSP432 Launchpad to display colour blocks on a flat-panel display using VGA protocol. The colour data to display are stored in the main flash memory of the MSP432 Launchpad. The microcontroller will fetch the corresponding colour in memory and output the colour on screen accordingly. By pressing the right button, the launchpad fetches the next colour in the memory and display it on the screen. By pressing the left button, the launchpad changes between displaying 1 colour block or displaying 2 colour blocks on the screen, one colour from the current memory location and another from the following memory location. The colour LED onboard will indicate the expected colour from at the current memory location.
